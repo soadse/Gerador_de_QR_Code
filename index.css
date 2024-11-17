@@ -9,9 +9,8 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    min-height: 100vh;
+    height: 100vh;
     background-color: #34db7a;
-    overflow: hidden;
 }
 
 .container {
