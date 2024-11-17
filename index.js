@@ -4,6 +4,7 @@ let qrCodeInput = document.querySelector('#qr-form input')
 let qrCodeImg = document.querySelector('#qr-code img')
 
 
+
 // Gera o QR Code
 function generateQrCode() {
     let qrCodeInputValue = qrCodeInput.value
@@ -18,6 +19,7 @@ function generateQrCode() {
         container.classList.add("active")
         qrCodeBtn.innerText = "Código criado!"
     })
+    
 }
 qrCodeBtn.addEventListener("click", () => {
     generateQrCode()
